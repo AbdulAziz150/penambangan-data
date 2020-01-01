@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>My Docs</title>
+        <link href="css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="js/jquery-1.10.2.min.js" defer></script>
+        <script src="js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body class="homepage">
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href=".">My Docs</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#tugas-1">Tugas 1</a></li>
+            <li><a href="#statistika-deskriptif">Statistika Deskriptif¶</a></li>
+        <li class="main "><a href="#mengukur-jarak-data">Mengukur Jarak Data</a></li>
+            <li><a href="#mengukur-jarak-data_1">Mengukur Jarak Data¶</a></li>
+            <li><a href="#1-mengukur-jarak-atribut-numerik">1. Mengukur Jarak Atribut Numerik¶</a></li>
+        <li class="main "><a href="#specimen">Specimen¶</a></li>
+            <li><a href="#body-copy">Body copy¶</a></li>
+            <li><a href="#headings">Headings¶</a></li>
+            <li><a href="#headings-with-secondary-text">Headings with secondary text¶</a></li>
+            <li><a href="#blockquotes">Blockquotes¶</a></li>
+            <li><a href="#lists">Lists¶</a></li>
+            <li><a href="#code-blocks">Code blocks¶</a></li>
+            <li><a href="#horizontal-rules">Horizontal rules¶</a></li>
+            <li><a href="#data-tables">Data tables¶</a></li>
+            <li><a href="#commands">Commands</a></li>
+            <li><a href="#project-layout">Project layout</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="tugas-1">Tugas 1</h1>
+<h2 id="statistika-deskriptif"><strong>Statistika Deskriptif</strong><a href="https://gitashavirapratiwi.github.io/penambangan-data/#statistika-deskriptif">¶</a></h2>
+<p>Statistika Deskriptif adalah metode yang digunakan untuk menganalisis sebuah data sehingga dapat memberikan informasi yang dapat berguna. Contoh statistika deskriptif yakni tabel, grafik, diagram, piktogram.</p>
+<p>1.Rata-rata (mean)</p>
+<p>Rata-rata adalah nilai yang menentukan pada kisaran angka berapa pada suatu data. Cara menghitung rata-rata yakni menjumlahkan seluruh nilai dari masing-masing data, kemudian dibagi dengan banyaknya data yang ada.</p>
+<p>2.Median (median)</p>
+<p>Median adalah nilai tengah dari kumpulan data yang telah diurutkan dari yang terkecil sampai terbesar, apabila jumlah data adalah ganjil maka nilai median yakni suatu nilai yang berada di tengah urutan, namun apabila jumlah data genap maka mediannya adalah hasil penjumlahan dua nilai yang berada di tengah urutan data kemudian hasilnya dibagi dua.</p>
+<p>3.Modus (mode)</p>
+<p>Nilai atau data yang paling sering muncul atau memiliki jumlah frekuensi yang paling banyak.</p>
+<p>Untuk data numerik unimodal yang cukup miring (asimetris), kami memiliki hubungan empiris:</p>
+<p>mean − mode ≈ 3 × (mean − median)</p>
+<p>Ini menyiratkan bahwa mode untuk kurva frekuensi unimodal yang cukup miring dapat dengan mudah didekati jika nilai rata-rata dan median diketahui.</p>
+<p>4.Standard Deviasi</p>
+<p>Adalah nilai statistika yang dimanfaatkan untuk menentukan bagaimana sebaran data dalam sampel yang merupakan akar kuadrat dari varians, serta seberapa dekat titik data individu ke rata-rata nilai sampel.</p>
+<p>Rumus yang digunakan: $$ \begin{align<em>}s = \sqrt{\frac{n\sum_{i=1}nx_i2-(\sum_{i=1}^nx_1)2}{n(n-1)}}\end{align</em>} $$ 5.Varian</p>
+<p>Varian adalah ukuran yang digunakan untuk mengetahui seberapa jauh sebuah kumpulan bilangan tersebar. </p>
+<p>6.Skewness</p>
+<p>Suatu nilai yang menunjukkan seberapa jauh pergeseran dari bentuk simetris suatu distribusi atau sering disebut derajat ketidaksimetrisan. Untuk menghitung derajat distorisi dapat menggunakan koefisien Kemencengan Pearson yang diperoleh dengan menggunakan nilai selisih rata-rata dengan modus dibagi simpangan baku. </p>
+<p>7.Quartil</p>
+<p>Adalah nilai-nilai yang membagi data yang sudah diurutkan ke dalam 4 bagian yang nilainya sama besar. Dalam menentukan letak kuartil data tunggal, kita harus melihat kondisi jumlah data (n) terlebih dahulu.</p>
+<p>Kuartil pada suatu data dapat diperoleh dengan cara membagi data tersebut secara terurut menjadi empat bagian yang memiliki nilai sama besar.</p>
+<h3 id="data-yang-sudah-diolah-berdasarkan-statistika-deskriptif"><strong>Data yang sudah diolah berdasarkan Statistika Deskriptif</strong><a href="https://gitashavirapratiwi.github.io/penambangan-data/#data-yang-sudah-diolah-berdasarkan-statistika-deskriptif">¶</a></h3>
+<pre><code>import pandas as pd
+from scipy import stats
+import numpy as np
+import seaborn as sns
+import matplotlib as plt
+data = pd.read_csv(&quot;tugas gita.csv&quot;,delimiter=&quot;;&quot;)
+cm = sns.light_palette(&quot;gold&quot;, as_cmap=True)
+data.style.background_gradient(cmap=cm)
+colum = data.columns.tolist()
+for x in colum :
+    ds = [x for x in data[x]]
+    desc = data[x].describe()
+    array = [x for x in desc]
+    print(&quot;Detail kolom&quot;,x)
+    print(&quot;rata-rata: &quot;,array[1])
+    print(&quot;Median: &quot;,np.median(np.array(ds)))
+    print(&quot;Modus: &quot;,stats.mode(ds))
+    print(&quot;Standard deviasi: &quot;,np.std(ds))
+    print(&quot;varian: &quot;,stats.variation(ds))
+    print(&quot;Skewness: &quot;,stats.skew(ds))
+    print(&quot;Quartil 1: &quot;,array[4])
+    print(&quot;Quartil 2: &quot;,array[5])
+    print(&quot;Quartil 3: &quot;,array[6])
+    sns.distplot(data[x])
+
+    print(&quot;\n&quot;)
+
+</code></pre>
+
+<h4 id="hasil-runningnya"><strong>Hasil runningnya:</strong><a href="https://gitashavirapratiwi.github.io/penambangan-data/#hasil-runningnya">¶</a></h4>
+<p>Detail kolom Data 1 rata-rata: 31.028 Median: 31.0 Modus: ModeResult(mode=array([10]), count=array([16])) Standard deviasi: 17.637097720430084 varian: 0.5684252198153308 Skewness: 0.04037865369912075 Quartil 1: 15.75 Quartil 2: 31.0 Quartil 3: 47.0</p>
+<p>Detail kolom Data 2 rata-rata: 29.77 Median: 29.0 Modus: ModeResult(mode=array([31]), count=array([15])) Standard deviasi: 17.553492529978186 varian: 0.5896369677520386 Skewness: 0.08681623088885974 Quartil 1: 14.0 Quartil 2: 29.0 Quartil 3: 45.0</p>
+<p>Detail kolom Data 3 rata-rata: 30.194 Median: 30.0 Modus: ModeResult(mode=array([7]), count=array([18])) Standard deviasi: 17.520740966066477 varian: 0.5802722715130979 Skewness: -0.009515290333714116 Quartil 1: 15.0 Quartil 2: 30.0 Quartil 3: 46.0</p>
+<p>Detail kolom Data 4 rata-rata: 30.704 Median: 32.0 Modus: ModeResult(mode=array([52]), count=array([15])) Standard deviasi: 17.773924271246347 varian: 0.5788797639150061 Skewness: -0.03918001057467828 Quartil 1: 16.0 Quartil 2: 32.0 Quartil 3: 46.0</p>
+<h1 id="mengukur-jarak-data">Mengukur Jarak Data</h1>
+<h2 id="mengukur-jarak-data_1">Mengukur Jarak Data<a href="https://gitashavirapratiwi.github.io/penambangan-data/getting-started/#mengukur-jarak-data">¶</a></h2>
+<h2 id="1-mengukur-jarak-atribut-numerik"><strong>1. Mengukur Jarak Atribut Numerik</strong><a href="https://gitashavirapratiwi.github.io/penambangan-data/getting-started/#1-mengukur-jarak-atribut-numerik">¶</a></h2>
+<p>Saat ini database memiliki banyak tipe data, dimana mengukur jarak merupakan komponen utama dalam algoritma clustering berbasis jarak, seperti Algoritma Partisioning misalnya fuzzy c-mean, K-Mean, rough clustering, dan K-medoidm bergantung pada jarak untuk melakukan pengelompokkan.</p>
+<p>Dimisalkan terdapat dua vektor yang kita singkat dengan v1 dan v2.</p>
+<p>v1 = x1,x2,...,x_n,</p>
+<p>v2 = y1,y2,...,y_n,</p>
+<p>dimana x_i,y_i disebut atribut. Terdapat beberapa ukuran jarak atau biasa disebut similaritas, yakni diantaranya:</p>
+<h6 id="minkowski-distance"><em>Minkowski Distance</em><a href="https://gitashavirapratiwi.github.io/penambangan-data/getting-started/#minkowski-distance">¶</a></h6>
+<p>Minkowski Distance adalah sebuah metrik dalam ruang vektor dimana suatu norma didefinisikan (normed vector space) sekaligus dianggap sebagai generalisasi dari Euclidean distance dan Manhattan distance. </p>
+<p><em>Euclidean distance</em></p>
+<p>Euclidean distance merupakan metode perhitungan jarak yang digunakan untuk mengukur jarak dari dua buah titik dalam Euclidean space yakni meliputi bidang euclidean dua dimensi, tiga dimensi, atau bahkan lebih. </p>
+<p><em>Average Distance</em></p>
+<p><em>Average distance</em> digunakan untuk menghitung jarak rata-rata antara data yang terletak pada <em>cluster</em> sama berdasarkan <em>clustering</em> dataset dan <em>clustering</em> dataset dengan penghapusan satu kolom (variabel). Berikut merupakan rumus dengan metode ini:</p>
+<p>dave=(1nn∑i=1(xi−yi)2)12dave=(1n∑i=1n(xi−yi)2)12</p>
+<p>Keterangan:</p>
+<p>d = jarak antara x dan y</p>
+<p>x = data pusat klaster</p>
+<p>y = data pada atribut</p>
+<p>i = setiap data</p>
+<p>n = jumlah data,</p>
+<p>xi = data pada pusat klaster ke i</p>
+<p>yi = data pada setiap data ke i</p>
+<p>###### <em>Weighted euclidean distance</em></p>
+<p>Weighted Euclidean distance merupakan modifikisasi lain dari jarak Euclidean distance yang dapat digunakan. Rumus yang digunakan adalah sebagai berikut:</p>
+<p>dwe=(n∑i=1wi(xi−yi)12)2dwe=(∑i=1nwi(xi−yi)12)2</p>
+<p>wi adalah bobot yang diberikan pada atribut ke-i</p>
+<p>###### <em>Chord distance</em></p>
+<p>Chord distance adalah salah satu ukuran jarak modifikasi Euclidean distance untuk mengatasi kekurangannya sehingga skala yang digunakan lebih baik dari Euclidean distance. Rumus yang digunakan yakni:</p>
+<p>dchord=(2−2∑ni=1xiyi||x||2||y||2)12dchord=(2−2∑i=1nxiyi||x||2||y||2)12</p>
+<p>###### Mahalanobis distance*</p>
+<p>Mahalanobis merupakan jarak yang teratur dapat digunakan untuk mengekstraksi hyperellipsoidal clusters, sehingga dapat mengurangi distorsi yang disebabkan oleh kolerasi linier antara fitur dengan cara transformasi pemutihan ke data atau menggunakan kuadrat jarak mahalanobis. Rumus yang digunakan yaitu:</p>
+<p>dmah=√(x−y)S−1(x−y)Tdmah=(x−y)S−1(x−y)T</p>
+<p>Ket : S adalah matrik covariance data</p>
+<p>###### <em>Cosine measure</em></p>
+<p>Cosine similarity adalah sebuah metode untuk menghitung kesamaan antara dua buah objek yang dinyatakan dalam dua buah vector dengan menggunakan kata kunci dari sebuah dokumen sebagai ukuran. Ukuran dari cosine similarity ini lebih banyak digunakan dalam similaritas dokumen. Rumus yang digunakan adalah:</p>
+<p>Cosine(x,y)=∑ni=1xiyi||x||2||y||2Cosine(x,y)=∑i=1nxiyi||x||2||y||2</p>
+<p>Ket : ∥y∥2 merupakan Euclidean norm dari vektor y=(y1,y2,…,yn)y=(y1,y2,…,yn) didefinisikan dengan ∥y∥2=√y21+y22+…+y2n</p>
+<p>###### <em>Pearson correlation</em></p>
+<p>Kolerasi Pearson adalah ukuran kolerasi yang digunakan untuk mengukur kekuatan dan arah hubungan linier dari dua variabel. Dikatakan berkolerasi apabila terjadi perubahan salah satu variabel disertai dengan perubahan variabel lainnya, baik dalam arah yang sama ataupun arah yang sebaliknya.</p>
+<p>Pearson correlation banyak digunakan dalam data expresi gen. Dimana ukuran ini menghitung similaritas antara dua bentuk pola expresi gen. Akan tetapi metode ini memiliki kelemahan yaitu sensitif terhadap outlier.</p>
+<p>Rumus yang digunakan yakni:</p>
+<p>Pearson(x,y)=∑ni=1(xi−μx)(yi−μy)√∑ni=1(xi−yi)2√∑ni=1(xi−yi)2Pearson(x,y)=∑i=1n(xi−μx)(yi−μy)∑i=1n(xi−yi)2∑i=1n(xi−yi)2</p>
+<h5 id="2-mengukur-jarak-atribut-binary">2. MENGUKUR JARAK ATRIBUT BINARY<a href="https://gitashavirapratiwi.github.io/penambangan-data/getting-started/#2-mengukur-jarak-atribut-binary">¶</a></h5>
+<p>Atribut biner hanya memiliki dua kategori atau keadaan yakni 0 dan 1, dimana 0 berarti tidak ada dan 1 berarti ada. Atribut biner bisa simetris atau asimetris, dikatakan simetris jika kedua nilainya bernilai sama atau setimbang harganya, sehingga tidak bisa diberi kode 0 atau 1, sedangkan asimetris kedua nilainya tidak setimbang harganya sehingga dapat diberi kode 0 atau 1.</p>
+<p>Contoh atribut biner yaitu status kehidupan, yakni hidup dan meninggal. 1 menunjukkan orang itu hidup dan 0 menunjukkan orang itu meninggal.</p>
+<p>Atribut biner tidak boleh diperlakukan sama dengan atribut numerik, sehingga ada metode khusus untuk membedakan komputasi pada data biner. Jadi untuk menghitung ketidaksamaan antara dua atribut biner yakni dengan melibatkan penghitungan matriks ketidaksamaan dari data biner.</p>
+<p>Jika semua atribut biner dianggap memiliki bobot yang sama, kita memiliki tabel kontingensi 2×2 di mana q adalah jumlah atribut yang sama dengan 1 untuk kedua objek i dan j, r adalah jumlah atribut yang sama dengan 1 untuk objek i tetapi 0 untuk objek j, s adalah jumlah atribut yang sama dengan 0 untuk objek i tetapi 1 untuk objek j, dan t adalah jumlah atribut yang sama dengan 0 untuk kedua objek ii dan j. Jumlah total atribut adalah p, dimana</p>
+<p>p=q+r+s+tp=q+r+s+t</p>
+<p>Untuk atribut biner simetris, masing-masing nilai bobot yang sama. Jika objek i dan j dinyatakan sebagai atribut biner simetris, maka dissimilarity antara i dan j adalah</p>
+<p>d(i,j)=r+sq+r+s+td(i,j)=r+sq+r+s+t</p>
+<p>Untuk atribut biner asimetris, kedua kondisi tersebut tidak sama pentingnya, seperti hasil positif 1 dan negatif 0 dari tes penyakit. Dimana 1 (positif) dianggap lebih signifikan, sehingga kecocokan 0 negatif diabaikan. Atribut biner ini disebut asimetris biner dissimilarity, rumusnya yakni:</p>
+<p>d(i,j)=r+sq+r+sd(i,j)=r+sq+r+s</p>
+<p>Untuk pengukuran dua atribut biner berdasarkan pada disimilarity. Misalnya, biner asimetris kesamaan antara objek i dan j, dihitung dengan rumus:</p>
+<p>sim(i,j)=qq+r+s=1−d(i,j)sim(i,j)=qq+r+s=1−d(i,j)</p>
+<h5 id="3-mengukur-jarak-atribut-categorical">3. <strong>MENGUKUR JARAK ATRIBUT CATEGORICAL</strong><a href="https://gitashavirapratiwi.github.io/penambangan-data/getting-started/#3-mengukur-jarak-atribut-categorical">¶</a></h5>
+<h6 id="overlay-metric"><em>Overlay Metric</em><a href="https://gitashavirapratiwi.github.io/penambangan-data/getting-started/#overlay-metric">¶</a></h6>
+<p>Apabila semua atribut adalah bertipe nominal, ukuran jarak yang paling sederhana adalah dengan Overlay Metric, rumusnya yaitu:</p>
+<p>d(x,y)=n∑i=1δ(ai(x),ai(y))d(x,y)=∑i=1nδ(ai(x),ai(y))</p>
+<p>Keterangan:</p>
+<p>n = banyaknya atribut</p>
+<p>ai(x) dan ai(y) = nilai atribut ke i</p>
+<p><em>Jika hasilnya = 0 maka ai(x)=ai(y), dan 1 jika sebaliknya</em></p>
+<h6 id="value-difference-metric-vdm"><em>Value Difference Metric (VDM)</em><a href="https://gitashavirapratiwi.github.io/penambangan-data/getting-started/#value-difference-metric-vdm">¶</a></h6>
+<p>VDM dikenalkan oleh Standfill and Waltz, rumusnya yaitu:</p>
+<p>d(x,y)=n∑i=1C∑c=1|P(c|ai(x))−P(c|ai(y)d(x,y)=∑i=1n∑c=1C|P(c|ai(x))−P(c|ai(y)</p>
+<p>Keterangan :</p>
+<p>C = banyaknya kelas</p>
+<ul>
+<li>P(c|ai(x))P(c|ai(x)) adalah probabilitas bersyarat dimana kelas x adalah c dari atribut Ai yang memiliki nilai ai(x)</li>
+<li>P(c|ai(y))P(c|ai(y)) adalah probabilitas bersyarat dimana kelas y adalah c dengan atribut Ai memiliki nilai ai(y)</li>
+</ul>
+<p>Pendekatan lain berbasi probabilitas adalah SFM (Short and Fukunaga Metric) yang kemudian dikembangkan oleh Myles dan Hand dan didefinisikan dengan</p>
+<p>d(x,y)=C∑c=1|P(c|x)−P(c|y)|d(x,y)=∑c=1C|P(c|x)−P(c|y)|</p>
+<h6 id="minimum-risk-metric-mrm">Minimum Risk Metric (MRM)<a href="https://gitashavirapratiwi.github.io/penambangan-data/getting-started/#minimum-risk-metric-mrm">¶</a></h6>
+<p>Ukuran ini dipresentasikan oleh Blanzieri and Ricci, dimana MRM meminimumkan risk of misclassification yang didefinisikan dengan</p>
+<p>d(x,y)=C∑c=1P(c|x)(1−P(c|y))d(x,y)=∑c=1CP(c|x)(1−P(c|y))</p>
+<h5 id="4-mengukur-jarak-atribut-ordinal">4. MENGUKUR JARAK ATRIBUT ORDINAL<a href="https://gitashavirapratiwi.github.io/penambangan-data/getting-started/#4-mengukur-jarak-atribut-ordinal">¶</a></h5>
+<p>Atribut Ordinal adalah atribut dengan nilai-nilai yang memiliki urutan atau peringkat, akan tetapi jarak antara nilai-nilainya tidak diketahui. Contohnya: nilai ujian(A,B,C,D,E), rangking kelas(1,2,3), ukuran baju(S,M,L,XL,XXL), dan sebagainya.</p>
+<p>Perlakuan untuk atribut ordinal adalah cukup sama dengan atribut numerik ketika menghitung disimilarity antara objek. Misalkan f adalah atribut-atribut dari atribut ordinal dari n objek. Menghitung disimilarity terhadap f fitur sebagai berikut:</p>
+<ul>
+<li>Nilai f untuk objek ke-ii adalah xif, dan f memiliki Mf status urutan , mewakili peringkat 1,..,Mf1,..,Mf Ganti setiap xif dengan peringkatnya, rif∈{1...Mf}</li>
+<li>Karena setiap atribut ordinal dapat memiliki jumlah state yang berbeda, diperlukan untuk memetakan rentang setiap atribut ke [0,0, 1.0] sehingga setiap atribut memiliki bobot yang sama. Perl melakukan normalisasi data dengan mengganti peringkat rifrif dengan:</li>
+</ul>
+<p>zif=rif−1Mf−1zif=rif−1Mf−1</p>
+<ul>
+<li>Dissimilarity kemudian dihitung dengan menggunakan ukuran jarak seperti atribut numerik dengan data yang baru setelah ditransformasi $ z _ { i f }$</li>
+</ul>
+<h5 id="5-menghitung-jarak-tipe-campuran">5. MENGHITUNG JARAK TIPE CAMPURAN<a href="https://gitashavirapratiwi.github.io/penambangan-data/getting-started/#5-menghitung-jarak-tipe-campuran">¶</a></h5>
+<h4 id="code-program-untuk-implementasikan"><strong>*Code Program untuk Implementasikan</strong><a href="https://gitashavirapratiwi.github.io/penambangan-data/getting-started/#code-program-untuk-implementasikan">¶</a></h4>
+<pre><code>import pandas as pd
+from scipy import stats
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+</code></pre>
+
+<pre><code>data = pd.read_csv(&quot;Data.csv&quot;,delimiter=&quot;;&quot;)
+k=data.iloc[0:18]
+k
+
+</code></pre>
+
+<p>Hasil outputnya :</p>
+<table>
+<thead>
+<tr>
+<th>Sex</th>
+<th>Length</th>
+<th>Diameter</th>
+<th>Height</th>
+<th>Whole weight</th>
+<th>Shucked weight</th>
+<th>Viscera weight</th>
+<th>Shell weight</th>
+<th>Rings</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>M</td>
+<td>0.455</td>
+<td>0.365</td>
+<td>0.095</td>
+<td>0.5160</td>
+<td>0.2245</td>
+<td>0.1010</td>
+<td>0.150</td>
+<td>15</td>
+</tr>
+<tr>
+<td>1</td>
+<td>M</td>
+<td>0.350</td>
+<td>0.265</td>
+<td>0.090</td>
+<td>0.2255</td>
+<td>0.0995</td>
+<td>0.0485</td>
+<td>0.070</td>
+<td>7</td>
+</tr>
+<tr>
+<td>2</td>
+<td>F</td>
+<td>0.530</td>
+<td>0.420</td>
+<td>0.135</td>
+<td>0.6770</td>
+<td>0.2565</td>
+<td>0.1415</td>
+<td>0.210</td>
+<td>9</td>
+</tr>
+<tr>
+<td>3</td>
+<td>M</td>
+<td>0.440</td>
+<td>0.365</td>
+<td>0.125</td>
+<td>0.5160</td>
+<td>0.2155</td>
+<td>0.1140</td>
+<td>0.155</td>
+<td>10</td>
+</tr>
+<tr>
+<td>4</td>
+<td>I</td>
+<td>0.330</td>
+<td>0.255</td>
+<td>0.080</td>
+<td>0.2050</td>
+<td>0.0895</td>
+<td>0.0395</td>
+<td>0.055</td>
+<td>7</td>
+</tr>
+<tr>
+<td>5</td>
+<td>I</td>
+<td>0.425</td>
+<td>0.300</td>
+<td>0.095</td>
+<td>0.3515</td>
+<td>0.1410</td>
+<td>0.0775</td>
+<td>0.120</td>
+<td>8</td>
+</tr>
+<tr>
+<td>6</td>
+<td>F</td>
+<td>0.530</td>
+<td>0.415</td>
+<td>0.150</td>
+<td>0.7775</td>
+<td>0.2370</td>
+<td>0.1415</td>
+<td>0.330</td>
+<td>20</td>
+</tr>
+<tr>
+<td>7</td>
+<td>F</td>
+<td>0.545</td>
+<td>0.425</td>
+<td>0.125</td>
+<td>0.7680</td>
+<td>0.2940</td>
+<td>0.1495</td>
+<td>0.260</td>
+<td>16</td>
+</tr>
+<tr>
+<td>8</td>
+<td>M</td>
+<td>0.475</td>
+<td>0.370</td>
+<td>0.125</td>
+<td>0.5095</td>
+<td>0.2165</td>
+<td>0.1125</td>
+<td>0.165</td>
+<td>9</td>
+</tr>
+<tr>
+<td>9</td>
+<td>F</td>
+<td>0.550</td>
+<td>0.440</td>
+<td>0.150</td>
+<td>0.8945</td>
+<td>0.3145</td>
+<td>0.1510</td>
+<td>0.320</td>
+<td>19</td>
+</tr>
+<tr>
+<td>10</td>
+<td>F</td>
+<td>0.525</td>
+<td>0.380</td>
+<td>0.140</td>
+<td>0.6065</td>
+<td>0.1940</td>
+<td>0.1475</td>
+<td>0.210</td>
+<td>14</td>
+</tr>
+<tr>
+<td>11</td>
+<td>M</td>
+<td>0.430</td>
+<td>0.350</td>
+<td>0.110</td>
+<td>0.4060</td>
+<td>0.1675</td>
+<td>0.0810</td>
+<td>0.135</td>
+<td>10</td>
+</tr>
+<tr>
+<td>12</td>
+<td>M</td>
+<td>0.490</td>
+<td>0.380</td>
+<td>0.135</td>
+<td>0.5415</td>
+<td>0.2175</td>
+<td>0.0950</td>
+<td>0.190</td>
+<td>11</td>
+</tr>
+<tr>
+<td>13</td>
+<td>F</td>
+<td>0.535</td>
+<td>0.405</td>
+<td>0.145</td>
+<td>0.6845</td>
+<td>0.2725</td>
+<td>0.1710</td>
+<td>0.205</td>
+<td>10</td>
+</tr>
+<tr>
+<td>14</td>
+<td>F</td>
+<td>0.470</td>
+<td>0.355</td>
+<td>0.100</td>
+<td>0.4755</td>
+<td>0.1675</td>
+<td>0.0805</td>
+<td>0.185</td>
+<td>10</td>
+</tr>
+<tr>
+<td>15</td>
+<td>M</td>
+<td>0.500</td>
+<td>0.400</td>
+<td>0.130</td>
+<td>0.6645</td>
+<td>0.2580</td>
+<td>0.1330</td>
+<td>0.240</td>
+<td>12</td>
+</tr>
+<tr>
+<td>16</td>
+<td>I</td>
+<td>0.355</td>
+<td>0.280</td>
+<td>0.085</td>
+<td>0.2905</td>
+<td>0.0950</td>
+<td>0.0395</td>
+<td>0.115</td>
+<td>7</td>
+</tr>
+<tr>
+<td>17</td>
+<td>F</td>
+<td>0.440</td>
+<td>0.340</td>
+<td>0.100</td>
+<td>0.4510</td>
+<td>0.1880</td>
+<td>0.0870</td>
+<td>0.130</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<pre><code>numerical=[8]
+ordinal=[1,7]
+
+</code></pre>
+
+<pre><code>from IPython.display import HTML, display
+import tabulate
+table=[
+     [&quot;Data&quot;]+[&quot;Jarak&quot;]+[&quot;Numeric&quot;]+[&quot;Ordinal&quot;]+[&quot;Categorical&quot;]+[&quot;Binary&quot;],
+    [&quot;v1-v2&quot;]+[0]+[0]+[0]+[0]+[0],
+    [&quot;v1-v3&quot;]+[0]+[0]+[0]+[0]+[0],
+    [&quot;v2-v3&quot;]+[0]+[0]+[0]+[0]+[0],
+    [&quot;v3-v4&quot;]+[0]+[0]+[0]+[0]+[0],
+    [&quot;v4-v5&quot;]+[0]+[0]+[0]+[0]+[0],
+    [&quot;v5-v6&quot;]+[0]+[0]+[0]+[0]+[0]
+
+    ]
+
+display(HTML(tabulate.tabulate(table, tablefmt='html')))
+
+</code></pre>
+
+<p>Hasil outputnya :</p>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Jarak</th>
+<th>Numeric</th>
+<th>Ordinal</th>
+<th>Categorical</th>
+<th>Binary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>v1-v2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>v1-v3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>v2-v3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>v3-v4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>v4-v5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>v5-v6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<h5 id="jarak-numerik">#JARAK NUMERIK<a href="https://gitashavirapratiwi.github.io/penambangan-data/getting-started/#jarak-numerik">¶</a></h5>
+<pre><code>def chordDist(v1,v2,jnis):
+    jmlh=0
+    normv1=0
+    normv2=0
+    for x in range (len(jnis)):
+        normv1=normv1+(int(k.values.tolist()[v1][jnis[x]])**2)
+        normv2=normv2+(int(k.values.tolist()[v1][jnis[x]])**2)
+        jmlh=jmlh+(int(k.values.tolist()[v1][jnis[x]])*int(k.values.tolist()[v2][jnis[x]]))
+    return ((2-(2*jmlh/((normv1**0.5)*(normv2**0.5)))**0.5))
+
+</code></pre>
+
+<pre><code>from IPython.display import HTML, display
+import tabulate
+table=[
+    [&quot;Data&quot;]+[&quot;Jarak&quot;]+[&quot;Numeric&quot;]+[&quot;Ordinal&quot;]+[&quot;Categorical&quot;]+[&quot;Binary&quot;],
+    [&quot;v1-v2&quot;]+[0]+[&quot;{:.2f}&quot;.format(chordDist(0,1,numerical))]+[0]+[0]+[0],
+    [&quot;v1-v3&quot;]+[0]+[&quot;{:.2f}&quot;.format(chordDist(0,2,numerical))]+[0]+[0]+[0],
+    [&quot;v2-v3&quot;]+[0]+[&quot;{:.2f}&quot;.format(chordDist(1,2,numerical))]+[0]+[0]+[0],
+    [&quot;v3-v4&quot;]+[0]+[&quot;{:.2f}&quot;.format(chordDist(2,3,numerical))]+[0]+[0]+[0],
+    [&quot;v4-v5&quot;]+[0]+[&quot;{:.2f}&quot;.format(chordDist(3,4,numerical))]+[0]+[0]+[0],
+    [&quot;v5-v6&quot;]+[0]+[&quot;{:.2f}&quot;.format(chordDist(2,3,numerical))]+[0]+[0]+[0],
+
+    ]
+
+display(HTML(tabulate.tabulate(table, tablefmt='html')))
+
+</code></pre>
+
+<p>Hasil outputnya :</p>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Jarak</th>
+<th>Numeric</th>
+<th>Ordinal</th>
+<th>Categorical</th>
+<th>Binary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>v1-v2</td>
+<td>0</td>
+<td>1.03</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>v1-v3</td>
+<td>0</td>
+<td>0.90</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>v2-v3</td>
+<td>0</td>
+<td>0.40</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>v3-v4</td>
+<td>0</td>
+<td>0.51</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>v4-v5</td>
+<td>0</td>
+<td>0.82</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>v5-v6</td>
+<td>0</td>
+<td>0.51</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<h1 id="specimen">Specimen<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#specimen">¶</a></h1>
+<h2 id="body-copy">Body copy<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#body-copy">¶</a></h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras arcu libero, mollis sed massa vel, <em>ornare viverra ex</em>. Mauris a ullamcorper lacus. Nullam urna elit, malesuada eget finibus ut, ullamcorper ac tortor. Vestibulum sodales pulvinar nisl, pharetra aliquet est. Quisque volutpat erat ac nisi accumsan tempor.</p>
+<p><strong>Sed suscipit</strong>, orci non pretium pretium, quam mi gravida metus, vel venenatis justo est condimentum diam. Maecenas non ornare justo. Nam a ipsum eros. <a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#">Nulla aliquam</a> orci sit amet nisl posuere malesuada. Proin aliquet nulla velit, quis ultricies orci feugiat et. <code>Ut tincidunt sollicitudin</code> tincidunt. Aenean ullamcorper sit amet nulla at interdum.</p>
+<h2 id="headings">Headings<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#headings">¶</a></h2>
+<h3 id="the-3rd-level">The 3rd level<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#the-3rd-level">¶</a></h3>
+<h4 id="the-4th-level">The 4th level<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#the-4th-level">¶</a></h4>
+<h5 id="the-5th-level">THE 5TH LEVEL<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#the-5th-level">¶</a></h5>
+<h6 id="the-6th-level">The 6th level<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#the-6th-level">¶</a></h6>
+<h2 id="headings-with-secondary-text">Headings with secondary text<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#headings-with-secondary-text">¶</a></h2>
+<h3 id="the-3rd-level-with-secondary-text">The 3rd level with secondary text<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#the-3rd-level-with-secondary-text">¶</a></h3>
+<h4 id="the-4th-level-with-secondary-text">The 4th level with secondary text<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#the-4th-level-with-secondary-text">¶</a></h4>
+<h5 id="the-5th-level-with-secondary-text">THE 5TH LEVEL WITH SECONDARY TEXT<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#the-5th-level-with-secondary-text">¶</a></h5>
+<h6 id="the-6th-level-with-secondary-text">The 6th level with secondary text<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#the-6th-level-with-secondary-text">¶</a></h6>
+<h2 id="blockquotes">Blockquotes<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#blockquotes">¶</a></h2>
+<blockquote>
+<p>Morbi eget dapibus felis. Vivamus venenatis porttitor tortor sit amet rutrum. Pellentesque aliquet quam enim, eu volutpat urna rutrum a. Nam vehicula nunc mauris, a ultricies libero efficitur sed. <em>Class aptent</em> taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie imperdiet consectetur.</p>
+</blockquote>
+<h3 id="blockquote-nesting">Blockquote nesting<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#blockquote-nesting">¶</a></h3>
+<blockquote>
+<p><strong>Sed aliquet</strong>, neque at rutrum mollis, neque nisi tincidunt nibh, vitae faucibus lacus nunc at lacus. Nunc scelerisque, quam id cursus sodales, lorem <a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#">libero fermentum</a> urna, ut efficitur elit ligula et nunc.</p>
+<blockquote>
+<p>Mauris dictum mi lacus, sit amet pellentesque urna vehicula fringilla. Ut sit amet placerat ante. Proin sed elementum nulla. Nunc vitae sem odio. Suspendisse ac eros arcu. Vivamus orci erat, volutpat a tempor et, rutrum. eu odio.</p>
+<blockquote>
+<p><code>Suspendisse rutrum facilisis risus</code>, eu posuere neque commodo a. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed nec leo bibendum, sodales mauris ut, tincidunt massa.</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h3 id="other-content-blocks">Other content blocks<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#other-content-blocks">¶</a></h3>
+<blockquote>
+<p>Vestibulum vitae orci quis ante viverra ultricies ut eget turpis. Sed eu lectus dapibus, eleifend nulla varius, lobortis turpis. In ac hendrerit nisl, sit amet laoreet nibh.</p>
+<p>```
+var _extends = function(target) {
+  for (var i = 1; i &lt; arguments.length; i++) {
+    var source = arguments[i];
+    for (var key in source) {
+      target[key] = source[key];
+    }
+  }
+  return target;
+};</p>
+<p>```</p>
+<blockquote>
+<p>Praesent at <code>return target</code>, sodales nibh vel, tempor felis. Fusce vel lacinia lacus. Suspendisse rhoncus nunc non nisi iaculis ultrices. Donec consectetur mauris non neque imperdiet, eget volutpat libero.</p>
+</blockquote>
+</blockquote>
+<h2 id="lists">Lists<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#lists">¶</a></h2>
+<h3 id="unordered-lists">Unordered lists<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#unordered-lists">¶</a></h3>
+<ul>
+<li>Sed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus tellus non sem sollicitudin, quis rutrum leo facilisis. Nulla tempor lobortis orci, at elementum urna sodales vitae. In in vehicula nulla, quis ornare libero.</li>
+<li>Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.</li>
+<li>Nam vulputate tincidunt fringilla.</li>
+<li>Nullam dignissim ultrices urna non auctor.</li>
+<li>Aliquam metus eros, pretium sed nulla venenatis, faucibus auctor ex. Proin ut eros sed sapien ullamcorper consequat. Nunc ligula ante, fringilla at aliquam ac, aliquet sed mauris.</li>
+<li>Nulla et rhoncus turpis. Mauris ultricies elementum leo. Duis efficitur accumsan nibh eu mattis. Vivamus tempus velit eros, porttitor placerat nibh lacinia sed. Aenean in finibus diam.</li>
+</ul>
+<h3 id="ordered-lists">Ordered lists<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#ordered-lists">¶</a></h3>
+<ol>
+<li>
+<p>Integer vehicula feugiat magna, a mollis tellus. Nam mollis ex ante, quis elementum eros tempor rutrum. Aenean efficitur lobortis lacinia. Nulla consectetur feugiat sodales.</p>
+</li>
+<li>
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam ornare feugiat quam et egestas. Nunc id erat et quam pellentesque lacinia eu vel odio.</p>
+</li>
+<li>
+<p>Vivamus venenatis porttitor tortor sit amet rutrum. Pellentesque aliquet quam enim, eu volutpat urna rutrum a. Nam vehicula nunc mauris, a ultricies libero efficitur sed.</p>
+<ol>
+<li>Mauris dictum mi lacus</li>
+<li>Ut sit amet placerat ante</li>
+<li>Suspendisse ac eros arcu</li>
+</ol>
+</li>
+<li>
+<p>Morbi eget dapibus felis. Vivamus venenatis porttitor tortor sit amet rutrum. Pellentesque aliquet quam enim, eu volutpat urna rutrum a. Sed aliquet, neque at rutrum mollis, neque nisi tincidunt nibh.</p>
+</li>
+<li>
+<p>Pellentesque eget <code>var _extends</code> ornare tellus, ut gravida mi.</p>
+<p>```
+  var _extends = function(target) {
+    for (var i = 1; i &lt; arguments.length; i++) {
+      var source = arguments[i];
+      for (var key in source) {
+        target[key] = source[key];
+      }
+    }
+    return target;
+  };</p>
+<p>```</p>
+<p>​</p>
+</li>
+<li>
+<p>Vivamus id mi enim. Integer id turpis sapien. Ut condimentum lobortis sagittis. Aliquam purus tellus, faucibus eget urna at, iaculis venenatis nulla. Vivamus a pharetra leo.</p>
+</li>
+</ol>
+<h3 id="definition-lists">Definition lists<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#definition-lists">¶</a></h3>
+<ul>
+<li>Lorem ipsum dolor sit amet</li>
+</ul>
+<p>Sed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus tellus non sem sollicitudin, quis rutrum leo facilisis. Nulla tempor lobortis orci, at elementum urna sodales vitae. In in vehicula nulla.Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis. Nam vulputate tincidunt fringilla. Nullam dignissim ultrices urna non auctor.</p>
+<ul>
+<li>Cras arcu libero</li>
+</ul>
+<p>Aliquam metus eros, pretium sed nulla venenatis, faucibus auctor ex. Proin ut eros sed sapien ullamcorper consequat. Nunc ligula ante, fringilla at aliquam ac, aliquet sed mauris.</p>
+<h2 id="code-blocks">Code blocks<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#code-blocks">¶</a></h2>
+<h3 id="inline">Inline<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#inline">¶</a></h3>
+<p>Morbi eget <code>dapibus felis</code>. Vivamus <em>venenatis porttitor</em> tortor sit amet rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#"><code>Pellentesque aliquet quam enim</code></a>, eu volutpat urna rutrum a.</p>
+<p>Nam vehicula nunc <code>return target</code> mauris, a ultricies libero efficitur sed. Sed molestie imperdiet consectetur. Vivamus a pharetra leo. Pellentesque eget ornare tellus, ut gravida mi. Fusce vel lacinia lacus.</p>
+<h3 id="listing">Listing<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#listing">¶</a></h3>
+<table>
+<thead>
+<tr>
+<th><code>123456789</code></th>
+<th><code>var _extends = function(target) {  for (var i = 1; i &lt; arguments.length; i++) {    var source = arguments[i];    for (var key in source) {      target[key] = source[key];    }  }  return target;};</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="horizontal-rules">Horizontal rules<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#horizontal-rules">¶</a></h2>
+<p>Aenean in finibus diam. Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis. Nam vulputate tincidunt fringilla. Nullam dignissim ultrices urna non auctor.</p>
+<hr />
+<p>Integer vehicula feugiat magna, a mollis tellus. Nam mollis ex ante, quis elementum eros tempor rutrum. Aenean efficitur lobortis lacinia. Nulla consectetur feugiat sodales.</p>
+<h2 id="data-tables">Data tables<a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#data-tables">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>Sollicitudo / Pellentesi</th>
+<th>consectetur</th>
+<th>adipiscing</th>
+<th>elit</th>
+<th>arcu</th>
+<th>sed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vivamus a pharetra</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Ornare viverra ex</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Mauris a ullamcorper</td>
+<td>yes</td>
+<td>yes</td>
+<td>partial</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Nullam urna elit</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Malesuada eget finibus</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Ullamcorper</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Vestibulum sodales</td>
+<td>yes</td>
+<td>-</td>
+<td>yes</td>
+<td>-</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Pulvinar nisl</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Pharetra aliquet est</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Sed suscipit</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Orci non pretium</td>
+<td>yes</td>
+<td>partial</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<p>Sed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus tellus non sem sollicitudin, quis rutrum leo facilisis. Nulla tempor lobortis orci, at elementum urna sodales vitae. In in vehicula nulla, quis ornare libero.</p>
+<table>
+<thead>
+<tr>
+<th>Left</th>
+<th>Center</th>
+<th>Right</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lorem</td>
+<td><em>dolor</em></td>
+<td><code>amet</code></td>
+</tr>
+<tr>
+<td><a href="https://gitashavirapratiwi.github.io/penambangan-data/specimen/#">ipsum</a></td>
+<td><strong>sit</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Vestibulum vitae orci quis ante viverra ultricies ut eget turpis. Sed eu lectus dapibus, eleifend nulla varius, lobortis turpis. In ac hendrerit nisl, sit amet laoreet nibh.</p>
+<table>
+<thead>
+<tr>
+<th>Table</th>
+<th>with colgroups (Pandoc)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lorem</td>
+<td>ipsum dolor sit amet.</td>
+</tr>
+<tr>
+<td>Sed sagittis</td>
+<td>eleifend rutrum. Donec vitae suscipit est.</td>
+</tr>
+</tbody>
+</table>
+<p>For full documentation visit <a href="https://mkdocs.org">mkdocs.org</a>.</p>
+<h2 id="commands">Commands</h2>
+<ul>
+<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
+<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
+<li><code>mkdocs build</code> - Build the documentation site.</li>
+<li><code>mkdocs help</code> - Print this help message.</li>
+</ul>
+<h2 id="project-layout">Project layout</h2>
+<pre><code>mkdocs.yml    # The configuration file.
+docs/
+    index.md  # The documentation homepage.
+    ...       # Other markdown pages, images and other files.
+</code></pre></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js" defer></script>
+        <script src="search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.0.4
+Build Date UTC : 2020-01-01 08:20:11
+-->
